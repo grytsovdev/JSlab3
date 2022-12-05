@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ЛР-2</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Лабораторна робота №3. JavaScript</h1>
+      <h2>Виконав студент Грицов Я. О., доцент Федусенко О. В.</h2>
+    </header>
+    <div class="task"><h2>Завданя на лабораторну роботу</h2>
+      <p>На Вашій сторінці є малюнок. При наведенні миші на цей
+        малюнок він повинен змінитися. Коли Ви відведете мишку в
+        сторону, малюнок має набути початкового вигляду.
+        Ввести No телефона (поле вводу) і назву міста (з клавіатури).
+        Якщо введено місто, якого немає в списку, то повідомити про це
+        користувача, інакше вивести No телефона, поставивши перед ним
+        код міста.
+      </p></div>
+    <main>
+
+      <div class="wrap">
+        <H1>Завданя 1</H1>
+        <div class="task1">
+          <input type="text" id="counry" placeholder="Введіть країну та
+            натисніть Enter">
+          <p id="output">
+
+          </p>
+        </div>
+      </div>
+      <div class="wrap">
+        <h1>Завданя 2</h1>
+        <div class="task2">
+          <table id="numbers" border="1">
+
+            <tr>
+              <td>5</td>
+              <td>9</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>6</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>7</td>
+              <td>2</td>
+            </tr>
+          </table>
+          <button id="fillMatrix" onclick="fill();"> Результат</button>
+          <p id="out"></p>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="JS/task1.js"></script>
+    <script src="JS/task2.js"></script>
+  </body>
+</html>
